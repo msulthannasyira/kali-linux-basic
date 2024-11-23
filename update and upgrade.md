@@ -1,6 +1,13 @@
-# Kali Linux Basic
-Hey there! So, I recently decided to dive into Kali Linux as my main OS, and I wanted to share my experience. If you're new to this OS, you might find it a bit overwhelming at first. But trust me, once you get the basics down, it’s not that bad!
+#Full Upgrade & Update
 
-When you first boot up Kali, there are a few key things you should do. For starters, updating the system is a must—otherwise, you might run into problems with old packages or missing updates. I also had to figure out how to set up my network and install a few tools to get the ball rolling.
+When you first install Kali Linux, it’s important to perform an update and upgrade to ensure that your system is running the latest security patches, applications, and other updates. This is a common step people take when setting up any Linux OS, and it’s especially important in Kali Linux to stay up-to-date with the latest tools and security fixes.
 
-If you’re interested, we can pulled together some notes and resources from our experience. I hope this helps anyone who's just starting out!
+To do this, you can open a terminal and run the necessary commands. This will update your package list and upgrade the installed software, making sure you have the newest versions of everything directly from the official Kali repositories.
+
+Update your package list: This ensures your system knows about the latest available updates for all installed packages.
+
+## 1. Update your package list, This ensures your system knows about the latest available updates for all installed packages.
+
+```cmd
+sudo apt update
+```
