@@ -13,3 +13,14 @@ This ensures your system knows about the latest available updates for all instal
 ```cmd
 sudo apt update
 ```
+
+## 2. Upgrade your installed packages
+
+This upgrades all the packages that are installed to the latest versions available.
+
+```cmd
+sudo apt full-upgrade -y
+```
+
+Running these commands is a key step right after you first boot up Kali Linux, ensuring you have the latest security patches, applications, and tools that Kali offers. You can always check for new updates by running these commands regularly to keep your system in top shape.
+
