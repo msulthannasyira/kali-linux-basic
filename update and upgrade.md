@@ -1,4 +1,4 @@
-#Full Upgrade & Update
+# Full Upgrade & Update
 
 When you first install Kali Linux, it’s important to perform an update and upgrade to ensure that your system is running the latest security patches, applications, and other updates. This is a common step people take when setting up any Linux OS, and it’s especially important in Kali Linux to stay up-to-date with the latest tools and security fixes.
 
