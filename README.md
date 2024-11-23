@@ -1,2 +1,2 @@
 # kalilinuxbluetooth
-how to download and enable bluetooth on kali linux
+documentary of basic things to do when first time start a linux
