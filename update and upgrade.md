@@ -6,6 +6,9 @@ To do this, you can open a terminal and run the necessary commands. This will up
 
 Update your package list: This ensures your system knows about the latest available updates for all installed packages.
 
+![image](https://github.com/user-attachments/assets/9f60177d-a8fa-47a4-bed4-bf44cc72c381)
+
+
 ## 1. Update your package list
 
 This ensures your system knows about the latest available updates for all installed packages.
