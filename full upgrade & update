@@ -6,6 +6,16 @@ To do this, you can open a terminal and run the necessary commands. This will up
 
 Update your package list: This ensures your system knows about the latest available updates for all installed packages.
 
-## 1. Deskripsi Kode Program
+## 1. Update your package list, This ensures your system knows about the latest available updates for all installed packages.
+
+```cmd
+sudo apt update
+```
+
+
+
+
+
+
 
 
