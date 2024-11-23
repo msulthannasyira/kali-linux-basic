@@ -1,6 +1,6 @@
 # How to Install Chrome in Kali Linux
 
-if you are not famliliar with default browser that kali brings on, then you can download another browser instead. in this case I want to download chrome because its my favourite browser today
+If you’re not familiar with the default browser that comes with Kali, you can download another browser instead. In this case, I want to download Chrome because it’s my favorite browser right now.
 
 ## 1. Download the Chrome .deb package
 
