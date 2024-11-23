@@ -1,6 +1,33 @@
-# Kali Linux Basic
-Hey there! So, I recently decided to dive into Kali Linux as my main OS, and I wanted to share my experience. If you're new to this OS, you might find it a bit overwhelming at first. But trust me, once you get the basics down, it’s not that bad!
+# Microsoft Office in Kali Linux! (LibreOffice)
 
-When you first boot up Kali, there are a few key things you should do. For starters, updating the system is a must—otherwise, you might run into problems with old packages or missing updates. I also had to figure out how to set up my network and install a few tools to get the ball rolling.
+You’ve got homework to write a story about your New Year’s holiday in a DOCX file, and it’s due tonight! Unfortunately, Kali Linux doesn’t come with a default application for creating this type of document. Or maybe you’re thinking of using Notepad—haha! Don’t worry; you can simply download LibreOffice. It’s fast, simple, and, most importantly, free!
 
-If you’re interested, we can pulled together some notes and resources from our experience. I hope this helps anyone who's just starting out!
+## 1. Install LibreOffice
+
+Use the following command to install LibreOffice
+
+```cmd
+sudo apt install libreoffice
+```
+
+## 2. Verify the installation
+
+After the installation is complete, check the LibreOffice version to ensure it is installed correctly
+
+```cmd
+libreoffice --version
+```
+
+## 3. Launch LibreOffice
+
+You can start LibreOffice by typing
+
+```cmd
+libreoffice 
+```
+or you can just open it directly from main menu
+
+![image](https://github.com/user-attachments/assets/a6b65bc6-bd73-4ace-a08d-449a66734e62)
+
+
+
