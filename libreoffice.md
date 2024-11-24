@@ -2,27 +2,27 @@
 
 You’ve got homework to write a story about your New Year’s holiday in a DOCX file, and it’s due tonight! Unfortunately, Kali Linux doesn’t come with a default application for creating this type of document. Or maybe you’re thinking of using Notepad—haha! Don’t worry; you can simply download LibreOffice. It’s fast, simple, and, most importantly, free!
 
-## 1. Install LibreOffice
+### 1. Install LibreOffice
 
 Use the following command to install LibreOffice
 
-```cmd
+```bash
 sudo apt install libreoffice
 ```
 
-## 2. Verify the installation
+### 2. Verify the installation
 
 After the installation is complete, check the LibreOffice version to ensure it is installed correctly
 
-```cmd
+```bash
 libreoffice --version
 ```
 
-## 3. Launch LibreOffice
+### 3. Launch LibreOffice
 
 You can start LibreOffice by typing
 
-```cmd
+```bash
 libreoffice 
 ```
 or you can just open it directly from main menu
