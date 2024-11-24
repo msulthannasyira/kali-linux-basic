@@ -6,21 +6,21 @@ To do this, you can open a terminal and run the necessary commands. This will up
 
 Update your package list: This ensures your system knows about the latest available updates for all installed packages.
 
-## 1. Update your package list
+### 1. Update your package list
 
 This ensures your system knows about the latest available updates for all installed packages.
 
-```cmd
+```bash
 sudo apt update
 ```
 
 ![image](https://github.com/user-attachments/assets/9f60177d-a8fa-47a4-bed4-bf44cc72c381)
 
-## 2. Upgrade your installed packages
+### 2. Upgrade your installed packages
 
 This upgrades all the packages that are installed to the latest versions available.
 
-```cmd
+```bash
 sudo apt full-upgrade -y
 ```
 
