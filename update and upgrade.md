@@ -4,8 +4,6 @@ When you first install Kali Linux, it’s important to perform an update and upg
 
 To do this, you can open a terminal and run the necessary commands. This will update your package list and upgrade the installed software, making sure you have the newest versions of everything directly from the official Kali repositories.
 
-Update your package list: This ensures your system knows about the latest available updates for all installed packages.
-
 ### 1. Update your package list
 
 This ensures your system knows about the latest available updates for all installed packages.
