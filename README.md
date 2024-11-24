@@ -4,3 +4,8 @@ Hey there! So, I recently decided to dive into Kali Linux as my main OS, and I w
 When you first boot up Kali, there are a few key things you should do. For starters, updating the system is a must—otherwise, you might run into problems with old packages or missing updates. I also had to figure out how to set up my network and install a few tools to get the ball rolling.
 
 If you’re interested, we can pulled together some notes and resources from our experience. I hope this helps anyone who's just starting out!
+
+![image](https://github.com/user-attachments/assets/2685f827-6297-45e7-a0f8-77820cb7e34b)
+
+
+
