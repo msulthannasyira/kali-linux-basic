@@ -1,6 +1,6 @@
 # Terminal Command
 
-Using Kali Linux without trying the terminal feels different, so let's try to use it as daily usage, here is some common things you can do in kali terminal:
+Using Kali Linux without trying the terminal feels different, so let's try using it for daily tasks. Here are some common things you can do in the Kali terminal
 
 ## Remove Directories and Files
  to remove a directory in Kali Linux, you can use the `rmdir` and `rm` command. here's how to use the command
