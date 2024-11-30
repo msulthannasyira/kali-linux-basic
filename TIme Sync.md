@@ -1,6 +1,39 @@
-# Kali Linux Basic
-Hey there! So, I recently decided to dive into Kali Linux as my main OS, and I wanted to share my experience. If you're new to this OS, you might find it a bit overwhelming at first. But trust me, once you get the basics down, it’s not that bad!
+# Time Synchronization
 
-When you first boot up Kali, there are a few key things you should do. For starters, updating the system is a must—otherwise, you might run into problems with old packages or missing updates. I also had to figure out how to set up my network and install a few tools to get the ball rolling.
+When you first install Kali Linux, the system might sync its time with the CMOS clock from your previous or another operating system. However, for some reason, this synchronization might stop working after the initial setup. If you try to adjust the time manually, it can cause issues, such as websites not functioning correctly. To resolve this, you need to enable automatic time synchronization in Kali Linux, similar to how Windows syncs with a time server. Here are the steps to set it up:
 
-If you’re interested, we can pulled together some notes and resources from our experience. I hope this helps anyone who's just starting out!
+### 1. Install the NTPsec Package
+
+The NTPsec library is used to synchronize the system time automatically. Install it with the following command
+
+```bash
+sudo apt install ntpsec
+```
+
+### 2. Start the NTPsec Service
+
+Once the library is installed, start the NTPsec service to enable time synchronization
+
+```bash
+sudo systemctl start ntpsec
+```
+
+### 3. Enable NTPsec to Start on Boot
+
+To ensure the NTPsec service runs automatically at boot, enable it using this command
+
+```bash
+sudo systemctl enable ntpsec.service
+```
+
+### 4. check the status
+
+You can check the status of the NTPsec service with the following command
+
+```bash
+sudo systemctl status ntpsec.service
+```
+
+If the system time does not update immediately, wait a moment for the synchronization to take effect. This delay is normal.
+
+
