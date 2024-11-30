@@ -1,6 +1,6 @@
 # Time Synchronization
 
-When you first install Kali Linux, the system might sync its time with the CMOS clock from your previous or another operating system. However, for some reason, this synchronization might stop working after the initial setup. If you try to adjust the time manually, it can cause issues, such as websites not functioning correctly. To resolve this, you need to enable automatic time synchronization in Kali Linux, similar to how Windows syncs with a time server. Here are the steps to set it up:
+When you first install Kali Linux, the system might sync its time with the CMOS clock from your previous or another operating system. However, for some reason, this synchronization might stop working after the initial setup. If you try to adjust the time manually, it can cause issues, such as websites not functioning correctly. To resolve this, you need to enable automatic time synchronization in Kali Linux, similar to how Windows syncs with a time server. Here are the steps to set it up
 
 ### 1. Install the NTPsec Package
 
